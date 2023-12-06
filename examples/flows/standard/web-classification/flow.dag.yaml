@@ -41,7 +41,7 @@ nodes:
     url: ${inputs.url}
     text_content: ${summarize_text_content.output}
     examples: ${prepare_examples.output}
-  connection: open_ai_connection
+  connection: to_replace_with_connection_name
   api: chat
 - name: convert_to_dict
   type: python
